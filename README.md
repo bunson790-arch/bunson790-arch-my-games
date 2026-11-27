@@ -1,20 +1,25 @@
 # Pocket Snake
 
-A retro handheld-style Snake game in a single HTML file. All the game logic is plain JavaScript drawing on a canvas, with no libraries and no build step.
+A retro handheld-style Snake game in a single HTML file. All game logic uses plain JavaScript and Canvas, with no build step or dependencies.
 
 ## Play
 
-Open `index.html` in any browser, or turn on GitHub Pages for this repo (Settings → Pages → Deploy from branch → `main` / root) to get a playable link.
+Open `index.html` in a browser. To publish it publicly, enable **GitHub Pages** in repository Settings → Pages → Deploy from branch → `main` / root.
+
+## Share a Challenge
+
+Use **SHARE CHALLENGE** to open your device's native share menu. On devices without native sharing, the game copies a challenge with your score and current page URL.
 
 ## Controls
 
-- **Arrow keys / WASD**: steer
-- **Space**: start or pause
-- **Phone**: swipe on the screen, or use the on-screen D-pad and START/PAUSE buttons
+- **Arrow keys / WASD:** steer
+- **Space / Enter:** start or pause
+- **Phone:** swipe on the screen or use the on-screen D-pad
+- **P / Escape:** pause
 
 ## Scoring
 
-- Pellet: 10 × level
-- Blinking bug (appears briefly): 50 × level
-- Every 5 pellets you level up and the snake speeds up
-- Your high score is saved in your browser
+- Pellet: `10 × level`
+- Blinking bug: `50 × level`
+- Every 5 pellets increases the level and speed
+- The high score is saved in local browser storage
